@@ -1,0 +1,943 @@
+Content-Type: text/enriched
+Text-Width: 70
+
+Guard, guard, guard, guard, guard...
+
+
++ FIX DYFETS COMPUTER
++ BRUSH YOUR TEETH, FLOSS AND MOUTHWASH NOW
++ RECORD MEALS/VITAMIN-D
++ TAKE VITAMIN-D/ANTI-TRIGLYCERIDE MEDICATION
+ - Guard...
+andrewdo@ai:/var/lib/myfrdcsas/versions/myfrdcsa-1.0/codebases/minor/3t-frdcsa$ cd /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/scripts && ./3t-launch-planner.sh
+<x-color><param>green</param>Warning: An error occurred (There is no such system defined: AP) during</x-color>
+         the reading or evaluation of <x-color><param>yellow</param>-e</x-color> "(load-system 'ap :compile t)"
+International Allegro CL Enterprise Edition
+8.1 [Linux (x86)] (Jul 28, 2007 7:38)
+Copyright (C) 1985-2007, Franz Inc., Oakland, CA, USA.  All Rights Reserved.
+
+
+This development copy of Allegro CL is licensed to:
+   [TC17309] TRACLabs
+
+
+
+; Loading home .clinit.cl file.
+;   Fast loading
+;      /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/acl81/code/asdf.fasl
+<x-color><param>green</param>gc: E=0% N=132912 O+=0 pfu=0+2724 pfg=0+93</x-color>
+;   Loading
+;      /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/ap.system
+;     Loading ap:user;file-io;json;cl-json;cl-json.asd
+;        (/var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/file-io/json/cl-json/cl-json.asd)
+;     Loading ap:belief-network;ap-beliefs.system
+;        (/var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/belief-network/ap-beliefs.system)
+;       Loading
+;          /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/belief-network/NeticaL/NeticaL.system
+;         Loading
+;            /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/belief-network/NeticaL/NeticaJ.translations
+<x-color><param>green</param>Warning: NeticaL.translations could not find NeticaJ</x-color>
+<x-color><param>green</param>gc: E=100% N=303632 O+=0 pfu=0+281 pfg=0+2</x-color>
+;     Loading ap:AllegroGraph;ap-AllegroGraph.system
+;        (/var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/AllegroGraph/ap-AllegroGraph.system)
+;   Loading /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/ap.asd
+Error loading #P"/home/andrewdo/.clinit.cl":
+Package :ASDF-USER does not exist.  Use defpackage to create new
+packages
+;; Optimization settings: safety 1, space 1, speed 1, debug 2.
+;; For a complete description of all compiler switches given the
+;; current optimization settings evaluate (EXPLAIN-COMPILER-SETTINGS).
+CL-USER(1): cl-user: (load-system 'ap :compile t)
+; Loading system: "AP".
+;   Loading product for module: "package".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/package.fasl
+;   Loading product for module: "ontology-packages".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/ontology-packages.fasl
+;   Loading product for module: "global-variables".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/global-variables.fasl
+;   Loading product for module: "lisp-extensions".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/lisp-extensions.fasl
+<x-color><param>green</param>gc: E=100% N=401608 O+=0 pfu=0+285 pfg=0+5</x-color>
+;   Loading product for module: "string-utilities".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/string-utilities.fasl
+;   Loading product for module: "metaobject".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/metaobject.fasl
+;   Loading product for module: "patmatch".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/patmatch.fasl
+<x-color><param>green</param>gc: E=0% N=443776 O+=2064 pfu=0+30</x-color>
+;   Loading product for module: "unify".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/unify.fasl
+;   Loading product for module: "stubs".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/stubs.fasl
+;   Loading product for module: "splay".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/splay.fasl
+;   Loading product for module: "jlinker".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/jlinker.fasl
+;   Fast loading
+;      /var/lib/myfrdcsas/versions/myfrdcsa-1.0/private/external/acl81/code/jlinker.fasl
+<x-color><param>green</param>gc: E=100% N=411984 O+=119240 pfu=0+29 pfg=0+30</x-color>
+<x-color><param>green</param>gc: E=0% N=441880 O+=154000 pfu=0+28 pfg=0+38</x-color>
+<x-color><param>green</param>gc: E=0% N=426608 O+=93768 pfu=0+17 pfg=0+24</x-color>
+<x-color><param>green</param>gc: E=0% N=504944 O+=71648 pfu=0+20 pfg=0+17</x-color>
+<x-color><param>green</param>gc: E=0% N=538744 O+=73328 pfu=0+8 pfg=0+18</x-color>
+<x-color><param>green</param>gc: E=100% N=498080 O+=97168 pfu=0+18 pfg=0+26</x-color>
+<x-color><param>green</param>gc: E=0% N=534464 O+=132872 pfu=0+6 pfg=0+32</x-color>
+<x-color><param>green</param>gc: E=0% N=506544 O+=162408 pfu=0+1 pfg=0+40</x-color>
+<x-color><param>green</param>gc: E=0% N=549408 O+=95624 pfg=0+23</x-color>
+<x-color><param>green</param>gc: E=0% N=579664 O+=91176 pfg=0+22</x-color>
+<x-color><param>green</param>gc: E=0% N=505608 O+=177320 pfg=0+43</x-color>
+<x-color><param>green</param>gc: E=0% N=514120 O+=134712 pfg=0+33</x-color>
+<x-color><param>green</param>gc: E=0% N=531672 O+=138472 pfu=0+1 pfg=0+34</x-color>
+<x-color><param>green</param>gc: E=0% N=504520 O+=122768 pfu=0+2 pfg=0+30</x-color>
+;   Loading product for module: "pathnames".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/pathnames.fasl
+;   Loading product for module: "csp-class".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/csp/csp-class.fasl
+;   Loading product for module: "create-csp".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/csp/create-csp.fasl
+<x-color><param>green</param>gc: E=100% N=487944 O+=103192 pfu=0+2 pfg=0+26</x-color>
+;   Loading product for module: "solver".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/csp/solver.fasl
+;   Loading product for module: "api".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/csp/api.fasl
+;   Loading product for module: "global-variables".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/global-variables.fasl
+gc: E=0% N=437792 O+=134408 pfg=0+33
+;   Loading product for module: "APThing".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/APThing.fasl
+;   Loading product for module: "DomainObject".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/DomainObject.fasl
+;   Loading product for module: "context".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/context.fasl
+gc: E=100% N=313056 O+=136024 pfg=0+33
+;   Loading product for module: "subgoal".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/subgoal.fasl
+;   Loading product for module: "PDDL_2_1".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/PDDL_2_1.fasl
+;   Loading product for module: "PPDDL".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/PPDDL.fasl
+;   Loading product for module: "package".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/owl/package.fasl
+;   Loading product for module: "Ontology".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/owl/Ontology.fasl
+;   Loading product for module: "namespace".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/owl/namespace.fasl
+;   Loading product for module: "Class".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/owl/Class.fasl
+<x-color><param>green</param>gc: E=100% N=358208 O+=52832 pfu=0+3 pfg=0+12</x-color>
+;   Loading product for module: "Container".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/owl/Container.fasl
+;   Loading product for module: "AnonymousClass".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/owl/AnonymousClass.fasl
+;   Loading product for module: "orphan-classes".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/owl/orphan-classes.fasl
+;   Loading product for module: "pddl-types".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/owl/pddl-types.fasl
+;   Loading product for module: "subclasses".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/owl/subclasses.fasl
+;   Loading product for module: "supreclasses".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/owl/supreclasses.fasl
+;   Loading product for module: "predicates".
+<x-color><param>green</param>gc: E=0% N=399352 O+=1808 pfu=0+1 pfg=0+1</x-color>
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/owl/predicates.fasl
+;   Loading product for module: "owl-time".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/owl/owl-time.fasl
+;   Loading product for module: "make-owl".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/owl/make-owl.fasl
+;   Loading product for module: "pddl-support".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/pddl-support.fasl
+;   Loading product for module: "ObjectProperty".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/predicates/ObjectProperty.fasl
+gc: XO-E=100% N=489664 O+=0 pfg=0+21
+;   Loading product for module: "function".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/predicates/function.fasl
+;   Loading product for module: "inverseOf".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/predicates/inverseOf.fasl
+;   Loading product for module: "subPropertyOf".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/predicates/subPropertyOf.fasl
+<x-color><param>green</param>gc: E=0% N=318112 O+=214504 pfu=0+28</x-color>
+;   Loading product for module: "propositions".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/predicates/propositions.fasl
+;   Loading product for module: "negation".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/predicates/negation.fasl
+;   Loading product for module: "init".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/predicates/init.fasl
+;   Loading product for module: "action".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/action/action.fasl
+<x-color><param>green</param>gc: E=0% N=365632 O+=47136 pfu=0+1 pfg=0+1</x-color>
+;   Loading product for module: "forall".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/action/forall.fasl
+;   Loading product for module: "template".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/action/template.fasl
+;   Loading product for module: "expansion".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/action/expansion.fasl
+<x-color><param>green</param>gc: E=0% N=448216 O+=0 pfu=0+2</x-color>
+;   Loading product for module: "syntax-checks".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/action/syntax-checks.fasl
+;   Loading product for module: "OPT".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/action/OPT.fasl
+;   Loading product for module: "define".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/action/define.fasl
+;   Loading product for module: "define-durative-action".
+<x-color><param>green</param>gc: XO-E=0% N=491168 O+=0 pfg=0+22</x-color>
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/action/define-durative-action.fasl
+;   Loading product for module: "situation".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/situation/situation.fasl
+;   Loading product for module: "domain-situation".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/situation/domain-situation.fasl
+;   Loading product for module: "initial-situation".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/situation/initial-situation.fasl
+<x-color><param>green</param>gc: E=0% N=320160 O+=226720 pfu=0+40</x-color>
+;   Loading product for module: "planned-situation".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/situation/planned-situation.fasl
+;   Loading product for module: "join".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/situation/join.fasl
+;   Loading product for module: "get-propositions".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/situation/get-propositions.fasl
+;   Loading product for module: "negation".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/situation/negation.fasl
+<x-color><param>green</param>gc: E=0% N=342888 O+=34880 pfu=0+2</x-color>
+;   Loading product for module: "axiom".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/axiom/axiom.fasl
+;   Loading product for module: "axiom-effect".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/axiom/axiom-effect.fasl
+;   Loading product for module: "syntax-checks".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/axiom/syntax-checks.fasl
+;   Loading product for module: "detect-inverseOf".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/axiom/detect-inverseOf.fasl
+;   Loading product for module: "define".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/axiom/define.fasl
+<x-color><param>green</param>gc: E=100% N=393320 O+=0 pfu=0+7 pfg=0+1</x-color>
+;   Loading product for module: "apply-axioms".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/axiom/apply-axioms.fasl
+;   Loading product for module: "no-context".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/axiom/no-context.fasl
+;   Loading product for module: "object".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/object.fasl
+<x-color><param>green</param>gc: XO-E=0% N=447120 O+=0 pfg=0+18</x-color>
+;   Loading product for module: "resource".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/resource.fasl
+;   Loading product for module: "designators".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/designators.fasl
+<x-color><param>green</param>gc: E=100% N=274040 O+=238040 pfu=0+39</x-color>
+;   Loading product for module: "error-checks".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/problem/error-checks.fasl
+;   Loading product for module: "goal".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/problem/goal.fasl
+;   Loading product for module: "problem".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/problem/problem.fasl
+;   Loading product for module: "define".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/problem/define.fasl
+<x-color><param>green</param>gc: E=0% N=329416 O+=23592 pfu=0+1</x-color>
+;   Loading product for module: "assumption".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/assumption/assumption.fasl
+;   Loading product for module: "assumed-resource".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/assumption/assumed-resource.fasl
+;   Loading product for module: "pc-assumption".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/assumption/pc-assumption.fasl
+;   Loading product for module: "domain".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/representation/domain.fasl
+<x-color><param>green</param>gc: E=100% N=393992 O+=8 pfu=0+2</x-color>
+;   Loading product for module: "print-prop".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/ui/print-prop.fasl
+;   Loading product for module: "print-plan".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/ui/print-plan.fasl
+<x-color><param>green</param>gc: XO-E=0% N=445704 O+=0 pfu=0+1 pfg=0+21</x-color>
+;   Loading product for module: "menus".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/ui/menus.fasl
+;   Loading product for module: "predicates".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/predicates.fasl
+;   Loading product for module: "plan-access".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/plan-access.fasl
+gc: E=100% N=296960 O+=179056 pfu=0+39
+;   Loading product for module: "probability".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/probability.fasl
+;   Loading product for module: "meu".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/meu.fasl
+;   Loading product for module: "make-situations".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/make-situations.fasl
+<x-color><param>green</param>gc: E=0% N=279072 O+=82584</x-color>
+;   Loading product for module: "situation-order".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/situation-order.fasl
+;   Loading product for module: "OPT".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/OPT.fasl
+;   Loading product for module: "create-expansion".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/create-expansion.fasl
+<x-color><param>green</param>gc: E=0% N=370312 O+=0 pfu=0+17</x-color>
+;   Loading product for module: "duration-methods".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/duration-methods.fasl
+;   Loading product for module: "dependencies".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/dependencies.fasl
+<x-color><param>green</param>gc: XO-E=0% N=428792 O+=0 pfu=0+2 pfg=0+18</x-color>
+;   Loading product for module: "duration".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/duration.fasl
+;   Loading product for module: "rejected-values".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/rejected-values.fasl
+;   Loading product for module: "designators".
+<x-color><param>green</param>gc: E=0% N=286288 O+=159528 pfu=0+33</x-color>
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/designators.fasl
+;   Loading product for module: "testing-constraints".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/testing-constraints.fasl
+<x-color><param>green</param>gc: E=0% N=299240 O+=64504 pfu=0+2</x-color>
+;   Loading product for module: "testing-preconditions".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/testing-preconditions.fasl
+;   Loading product for module: "backtracking".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/backtracking.fasl
+<x-color><param>green</param>gc: E=100% N=286512 O+=37560 pfu=0+4</x-color>
+;   Loading product for module: "find-new-ops".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/find-new-ops.fasl
+<x-color><param>green</param>gc: XO-E=0% N=332488 O+=8 pfu=0+1 pfg=0+11</x-color>
+;   Loading product for module: "a-star-search".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/a-star-search.fasl
+;   Loading product for module: "establish-subgoal".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/establish-subgoal.fasl
+<x-color><param>green</param>gc: E=0% N=473320 O+=130752 pfu=0+49</x-color>
+;   Loading product for module: "combined-operation".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/combined-operation.fasl
+<x-color><param>green</param>gc: E=0% N=462456 O+=54400 pfg=0+1</x-color>
+;   Loading product for module: "contingency".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/contingency.fasl
+<x-color><param>green</param>gc: E=0% N=477112 O+=32928 pfu=0+3</x-color>
+;   Loading product for module: "generate-plan".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/planning/generate-plan.fasl
+;   Loading product for module: "CounterAction".
+<x-color><param>green</param>gc: E=0% N=503456 O+=34520</x-color>
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/counterplanning/CounterAction.fasl
+;   Loading product for module: "countergoal".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/counterplanning/countergoal.fasl
+;   Loading product for module: "counterplan".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/counterplanning/counterplan.fasl
+<x-color><param>green</param>gc: E=100% N=538840 O+=9120</x-color>
+;   Loading product for module: "get-files".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/file-io/get-files.fasl
+;   Loading product for module: "write-to-file".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/file-io/write-to-file.fasl
+gc: XO-E=0% N=557152 O+=0 pfg=0+18
+;   Loading product for module: "pddl-files".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/file-io/pddl-files.fasl
+;   Loading product for module: "domain-to-triples".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/file-io/ntriples/domain-to-triples.fasl
+gc: E=0% N=267776 O+=353744 pfu=0+102
+;   Loading product for module: "plan-to-triples".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/file-io/ntriples/plan-to-triples.fasl
+;   Loading product for module: "plan-access".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/plan-access.fasl
+<x-color><param>green</param>gc: E=0% N=211216 O+=78792 pfg=0+2</x-color>
+;   Loading product for module: "define-predicate".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/define-predicate.fasl
+;   Loading product for module: "objects".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/objects.fasl
+;   Loading product for module: "propositions".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/propositions.fasl
+;   Loading product for module: "domain".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/domain.fasl
+;   Loading product for module: "edit-plan".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/edit-plan.fasl
+<x-color><param>green</param>gc: E=0% N=209144 O+=34896 pfu=0+6</x-color>
+;   Loading product for module: "load-pddl".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/running/load-pddl.fasl
+;   Loading product for module: "run".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/running/run.fasl
+;   Loading product for module: "execution-monitor".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/running/execution-monitor.fasl
+;   Loading product for module: "reset".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/running/reset.fasl
+;   Loading product for module: "repair-structure".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/replanning/repair-structure.fasl
+<x-color><param>green</param>gc: E=0% N=252000 O+=18152 pfg=0+1</x-color>
+;   Loading product for module: "situations".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/replanning/situations.fasl
+;   Loading product for module: "duration".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/replanning/duration.fasl
+;   Loading product for module: "replace-chosen".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/replanning/replace-chosen.fasl
+;   Loading product for module: "conflict".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/replanning/conflict.fasl
+<x-color><param>green</param>gc: E=0% N=275920 O+=37760 pfu=0+2</x-color>
+;   Loading product for module: "easy-repairs".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/replanning/easy-repairs.fasl
+<x-color><param>green</param>gc: XO-E=0% N=302560 O+=392 pfg=0+12</x-color>
+;   Loading product for module: "replace-wedge".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/replanning/replace-wedge.fasl
+;   Loading product for module: "replanner".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/replanning/replanner.fasl
+<x-color><param>green</param>gc: E=0% N=276616 O+=79632 pfu=0+46</x-color>
+;   Loading product for module: "perceived-situation".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/execution-monitor/perceived-situation.fasl
+;   Loading product for module: "output-situation".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/execution-monitor/output-situation.fasl
+;   Loading product for module: "execution-status".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/execution-monitor/execution-status.fasl
+<x-color><param>green</param>gc: E=0% N=251256 O+=54472</x-color>
+;   Loading product for module: "check-status".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/execution-monitor/check-status.fasl
+;   Loading product for module: "contingency".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/execution-monitor/contingency.fasl
+<x-color><param>green</param>gc: E=0% N=230216 O+=53440 pfu=0+3</x-color>
+;   Loading product for module: "designators".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/execution-monitor/designators.fasl
+;   Loading product for module: "problem-detection".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/execution-monitor/problem-detection.fasl
+<x-color><param>green</param>gc: E=100% N=229448 O+=27688</x-color>
+;   Loading product for module: "time".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/execution-monitor/time.fasl
+;   Loading product for module: "monitor".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/execution-monitor/monitor.fasl
+<x-color><param>green</param>gc: E=0% N=281624 O+=45440 pfu=0+3</x-color>
+;   Loading product for module: "api".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/execution-monitor/api.fasl
+;   Loading product for module: "add-new-subgoal".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/execution-monitor/add-new-subgoal.fasl
+;   Loading product for module: "anchor".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/plan-recognition/anchor.fasl
+;   Loading product for module: "pr-problem".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/plan-recognition/pr-problem.fasl
+;   Loading product for module: "upward-path".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/plan-recognition/upward-path.fasl
+<x-color><param>green</param>gc: XO-E=100% N=322040 O+=1008 pfg=0+12</x-color>
+;   Loading product for module: "initialize-search".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/plan-recognition/initialize-search.fasl
+;   Loading product for module: "search-upward".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/plan-recognition/search-upward.fasl
+<x-color><param>green</param>gc: E=0% N=276488 O+=66608 pfu=0+45</x-color>
+;   Loading product for module: "match-anchor".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/plan-recognition/match-anchor.fasl
+<x-color><param>green</param>gc: E=0% N=295496 O+=26776 pfg=0+1</x-color>
+;   Loading product for module: "generate-plan".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/plan-recognition/generate-plan.fasl
+;   Loading product for module: "remove-axiom".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/developer-tools/remove-axiom.fasl
+;   Loading product for module: "print-plan".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/developer-tools/print-plan.fasl
+<x-color><param>green</param>gc: E=0% N=231480 O+=91816 pfu=0+6</x-color>
+;   Loading product for module: "plan".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/developer-tools/plan.fasl
+;   Loading product for module: "action".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/developer-tools/action.fasl
+<x-color><param>green</param>gc: E=0% N=231416 O+=44808</x-color>
+;   Loading product for module: "situation".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/developer-tools/situation.fasl
+;   Loading product for module: "run-demos".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/developer-tools/run-demos.fasl
+;   Loading product for module: "cause-replanning".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/developer-tools/simulate-execution/cause-replanning.fasl
+<x-color><param>green</param>gc: E=100% N=242960 O+=24632</x-color>
+;   Loading product for module: "simulate".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/developer-tools/simulate-execution/simulate.fasl
+;   Loading product for module: "trace".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/debug/trace.fasl
+;   Loading product for module: "dribble".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/debug/dribble.fasl
+;   Loading product for module: "explain-failed-subgoal".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/user/debug/explain-failed-subgoal.fasl
+<x-color><param>green</param>gc: E=0% N=304832 O+=5936</x-color>
+;   Loading product for module: "initializations".
+; Fast loading
+;    /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/system/initializations.fasl
+<x-color><param>green</param>gc: E=100% N=324400 O+=1104 pfu=0+8</x-color>
+<x-color><param>green</param>gc: XO-E=0% N=340584 O+=0 pfg=0+12</x-color>
+<x-color><param>green</param>gc: E=100% N=235240 O+=146328 pfu=0+50</x-color>
+<x-color><param>green</param>gc: E=100% N=328624 O+=65408 pfu=0+81 pfg=0+3</x-color>
+
+
+
+-- FOAF extends OWLgc: Mark Pass...done(20+0), marked 128660 objects, overflows = 0, max depth (minus ovflow) = 2.
+Weak-vector Pass...done(0+0).
+Cons-cell swap...done(0+0), 6734 cons cells moved
+Oldarea break chain...done(0+0), 1186 holes totalling 689000 bytes
+Page-compaction data...done(0+0).
+Address adjustment...[1199 on stack,1-pass]...done(20+0).
+Compacting other objects...done(0+0).
+Page compaction...done(0+0), 37 pages moved
+New rootset...done(20+0), 949 rootset entries
+Building new pagemap...done(0+0).
+Merging empty oldspaces...done, 0 oldspaces merged.
+global gc recovered 739168 bytes of old space.
+<x-color><param>green</param>gc: XO-E=0% N=244088 O+=31112 pfg=0+389</x-color>
+
+
+
+  Adversarial Planner
+  This is Free Software, No rights reserved.
+
+
+  Type :pa ap to switch to the AP package
+  (load-pddl) to select PDDL file(s) from /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/domains/
+
+
+T
+CL-USER(2): cl-user: (in-package :ap)
+#<<The AP package>
+AP(3): (defun split-re (arg1 arg2) "" (split-regexp arg1 arg2))
+SPLIT-RE
+AP(4): (defun replace-re (arg1 arg2 arg3) "" (replace-regexp arg1 arg2 arg3))
+REPLACE-RE
+AP(5): ap: (load "ap:domains;CBRN;RTS-AI;Iran.pddl")
+; Loading ap:domains;CBRN;RTS-AI;Iran.pddl
+;    (/var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/domains/CBRN/RTS-AI/Iran.pddl)
+
+
+
+-- AP: Adversarial Planning, extends FOAF
+
+
+-- ORG extends FOAF
+
+
+-- WGS84_POS extends OWL
+
+
+-- GEOGRAPHY extends WGS84_POS
+
+
+-- EVENT extends FOAF, ORG, WGS84_POS, GEOGRAPHYgc: E=100% N=478448 O+=0 pfu=0+56
+
+
+  orphan classes: <<EVENT:GO>, WIPEgc: E=100% N=508880 O+=26008 pfg=0+2
+
+
+
+-- PHYSOB extends FOAF, EVENT
+
+
+-- COMMUNICATION extends EVENTgc: E=0% N=630192 O+=43624 pfu=0+7
+
+
+
+-- COMMERCE extends PHYSOB, COMMUNICATION
+  (PRODUCE #1=AGENT PHYSICALENTITY) <x-color><param>yellow</param>-subPropertyOf-></x-color> (POSSESSES
+                                                      #1#
+                                                      THING)
+  (PURCHASED CUSTOMER PHYSICALENTITY) <x-color><param>yellow</param>-subPropertyOf-></x-color> (POSSESSES
+                                                        AGENT
+                                                        THING)
+  (ACQUIRE #1=AGENT PHYSICALENTITY) <x-color><param>yellow</param>-subPropertyOf-></x-color> (POSSESSES
+                                                      #1#
+                                                      THING)
+  (<<PREDICATE OBTAIN> #1=AGENT #2=THING) <x-color><param>yellow</param>-subPropertyOf-></x-color> (POSSESSES
+                                                           #1#
+                                                           #2#)
+
+
+-- TRANSPORTATION extends EVENT, PHYSOB, GEOGRAPHYgc: E=0% N=382808 O+=146864 pfu=0+3
+
+
+
+-- COMPUTER extends FOAF, EVENT
+  orphan classes: MACHINE
+
+
+-- NETWORK extends COMPUTER
+<x-color><param>green</param>Warning: predicate (CONNECTED ?H1 ?H2 - HOST) in NETWORK</x-color>
+   previously defined as (CONNECTED #1=LOCATION #1#) in GEOGRAPHY
+
+
+
+-- INTERNET extends NETWORK, COMPUTER, COMMUNICATIONgc: E=100% N=260872 O+=197736
+
+
+
+-- INTERNATIONAL-COMMERCE extends COMMERCE, TRANSPORTATION, INTERNET
+
+
+-- CBRNECHEMICAL extends EVENTgc: E=100% N=400440 O+=87280 pfu=0+28
+
+
+  orphan classes: MATERIALENTITY
+
+
+-- DIMEFIL: classes of actions, extends EVENT, AP, INTERNATIONAL-COMMERCE, CBRNECHEMICAL
+  record-class NATURALGAS: CBRNECHEMICAL now extends COMMERCEgc: E=100% N=411384 O+=18152
+
+
+
+-- MANUFACTURING extends EVENT, COMMERCE
+  adopt-orphan-class MACHINE from COMPUTER
+  orphan classes: CARVEgc: E=100% N=400664 O+=35544
+
+
+
+-- CAPABILITY: merged with competency 2016-11-06, extends EVENT, ORG
+
+
+-- WEBSEARCH extends INTERNET
+
+
+-- <<DOMAIN AGENT> extends MANUFACTURING, CAPABILITY, GEOGRAPHY, WEBSEARCH
+  remove-action STEAL from COMMERCE
+
+
+-- <<DOMAIN AIR>: air parts of transportation domain, extends TRANSPORTATION
+
+
+-- <<DOMAIN WATER> extends TRANSPORTATION
+
+
+-- WEAPON: created 2016-05-13 from weapon_ont.owl, extends MANUFACTURING
+
+
+-- THREAT-BEHAVIORS extends AP, DIMEFIL, AGENT, CAPABILITY, AIR, WATER, WEAPONgc: E=0% N=337136 O+=105680
+
+
+  remove-action MAKE from COMMERCE
+
+
+-- CBRNEMATEQUIP extends AGENT, CBRNECHEMICALgc: E=0% N=411400 O+=178560
+<x-color><param>green</param>gc: E=100% N=388392 O+=34736</x-color>
+<x-color><param>green</param>gc: XO-E=100% N=400112 O+=0 pfg=0+23</x-color>
+<x-color><param>green</param>gc: E=0% N=292136 O+=117224 pfu=0+38</x-color>
+
+
+  adopt-orphan-class WIPE from EVENTgc: E=100% N=165960 O+=144336
+<x-color><param>green</param>gc: E=100% N=182144 O+=0 pfu=0+3</x-color>
+<x-color><param>green</param>gc: XO-E=100% N=198584 O+=0 pfg=0+12</x-color>
+<x-color><param>green</param>gc: E=0% N=91312 O+=134864 pfu=0+50</x-color>
+
+
+
+-- MINING-MILLING: P1 in IAEA pathway, extends CBRNECHEMICAL, CBRNEMATEQUIP, MANUFACTURING
+
+
+-- ENRICHMENT extends CBRNECHEMICAL, CBRNEMATEQUIP, MANUFACTURING
+
+
+-- NUCLEAR extends EVENT, AP, MINING-MILLING, ENRICHMENT, WEAPON
+
+
+-- NUCLEAR_WEAPON extends THREAT-BEHAVIORS, NUCLEARgc: E=100% N=102344 O+=13144 pfg=0+1
+
+
+  remove-action OBTAIN from COMMERCEgc: E=100% N=97656 O+=16224 pfu=0+1
+<x-color><param>green</param>gc: E=100% N=169992 O+=16288 pfu=0+2 pfg=0+1</x-color>
+<x-color><param>green</param>gc: E=100% N=70008 O+=42552 pfu=0+1</x-color>
+
+
+  IRAN_NOW: 12 <x-color><param>yellow</param>+axioms-applied+gc:</x-color> E=0% N=55384 O+=23184
+<x-color><param>green</param>gc: E=100% N=123288 O+=11608</x-color>
+<x-color><param>green</param>gc: E=0% N=80816 O+=3736</x-color>
+<x-color><param>green</param>gc: E=0% N=80816 O+=0</x-color>
+<x-color><param>green</param>gc: XO-E=0% N=80816 O+=0 pfg=0+7</x-color>
+<x-color><param>green</param>gc: E=0% N=2752 O+=78064</x-color>
+<x-color><param>green</param>gc: E=0% N=2752 O+=14248</x-color>
+<x-color><param>green</param>gc: E=0% N=2752 O+=0</x-color>
+<x-color><param>green</param>gc: E=0% N=2752 O+=0</x-color>
+<x-color><param>green</param>gc: E=0% N=2752 O+=0</x-color>
+
+
+T
+AP(6): (setf *problem* (first (problems *domain*)))
+NUCLEARWEAPONATTACKCAPABILITY
+AP(7): (run-ap *problem*)
+<x-color><param>green</param>gc: E=0% N=4824 O+=0</x-color>
+
+
+  *problem* = NUCLEARWEAPONATTACKCAPABILITY
+  need to get highly enriched, build weapon, etc.
+  deadline = 416.0
+
+
+establish-goal (HASNUCLEARATTACKCAPABILITY IRN)
+
+
+note-chosen-for <<sg 1 CONDUCTRESEARCH33 HASSOMEKNOWLEDGEOF>:  (HASSOMEKNOWLEDGEOF IRN NUCLEARWEAPON)
+  DEVELOPEXPERTS35 
+  RECRUITEXPERTS34 
+  <x-color><param>yellow</param>--></x-color> DEVELOPEXPERTS35gc: E=50% N=152208 O+=0 pfu=0+61
+
+
+
+note-chosen-for <<lsg 1 DEVELOPNUCLEARWEAPON49 OBTAINFISSILEMATERIAL :output ?FM>:  (OBTAINFISSILEMATERIAL IRN)
+  IMPORTHEU50 (?SELLER . PAK)
+  CONCENTRATE52 (?PLANT . NATANZ)
+  CONCENTRATE53 (?PLANT . FODROW)
+  REPROCESSSPENTFUEL51 (?PLANT . IR-40)
+  <x-color><param>yellow</param>--></x-color> IMPORTHEU50 :value HIGHLYENRICHEDURANIUMgc: E=0% N=191320 O+=0
+ :value IMPLOSIONWEAPON
+
+
+Thus ends plan-generation of problem NUCLEARWEAPONATTACKCAPABILITY ...
+ probability-of-success = 0.000
+
+
+===== generate-counterplans =======
+
+
+
+---- counterplan vs. NUCLEARWEAPONPROGRAM4 <x-color><param>yellow</param>----</x-color>
+get-value setting *current-situation* = TESTNUCLEARWEAPON58_OUT
+
+
+<x-color><param>green</param>counterplans:</x-color>
+  OR340: not(HASACCESSTO IRN NATANZ) | not(HASFINANCIALRESOURCES IRN)
+    OR
+      DESTROYUNDERGROUNDFACILITY61: not(HASACCESSTO IRN NATANZ)
+      REIMPOSESANCTIONS60: not(HASFINANCIALRESOURCES IRN)
+ planner: USA
+ jeopardizes TESTNUCLEARWEAPON58, IMPORTHEU50
+ time:hasDuration = 10.00 WEEKs [deadline = 416.00]
+ probability-of-success = 0.940
+
+
+  DESTROYUNDERGROUNDFACILITY62: not(HASACCESSTO IRN NATANZ)
+ planner: ISR
+ jeopardizes TESTNUCLEARWEAPON58
+ time:hasDuration = 8.00 WEEKs [deadline = 416.00]
+ probability-of-success = 0.400
+
+
+
+found zero counter-counterplans
+   to foil (OR340 DESTROYUNDERGROUNDFACILITY62)
+
+
+===== end generate-counterplans =========
+
+
+
+-------- plan: NUCLEARWEAPONPROGRAM4 <x-color><param>yellow</param>--------</x-color>
+
+
+ NUCLEARWEAPONPROGRAM4: (HASNUCLEARATTACKCAPABILITY IRN)
+  SERIES
+    parallel
+      BREAKOUTCAPABILITY5: (HASBREAKOUTCAPABILITY IRN)
+        COVERS-START
+          SELLHYDROCARBONFUEL6: (HASFINANCIALRESOURCES IRN)
+            COVERS-START
+              PRODUCEFUEL7: (PRODUCE IRN HYDROCARBONFUEL)
+              parallel
+                SELLFUEL8: (SOLD IRN HYDROCARBONFUEL GBR)
+                  SERIES
+                    TRANSFERMONEY9: (TRANSFERFUNDS GBR IRN MONEY)
+                      SERIES
+                        WITHDRAWMONEY10: (WITHDRAW GBR MONEY)
+                        DEPOSITMONEY11: (DEPOSITED IRN MONEY) :value GBR
+                SELLFUEL12: (SOLD IRN HYDROCARBONFUEL DEU)
+                  SERIES
+                    TRANSFERMONEY13: (TRANSFERFUNDS DEU IRN MONEY)
+                      SERIES
+                        WITHDRAWMONEY14: (WITHDRAW DEU MONEY)
+                        DEPOSITMONEY15: (DEPOSITED IRN MONEY) :value DEU
+                SELLFUEL16: (SOLD IRN HYDROCARBONFUEL PAK)
+                  SERIES
+                    TRANSFERMONEY17: (TRANSFERFUNDS PAK IRN MONEY)
+                      SERIES
+                        WITHDRAWMONEY18: (WITHDRAW PAK MONEY)
+                        DEPOSITMONEY19: (DEPOSITED IRN MONEY) :value PAK
+                SELLFUEL20: (SOLD IRN HYDROCARBONFUEL IND)
+                  SERIES
+                    TRANSFERMONEY21: (TRANSFERFUNDS IND IRN MONEY)
+                      SERIES
+                        WITHDRAWMONEY22: (WITHDRAW IND MONEY)
+                        DEPOSITMONEY23: (DEPOSITED IRN MONEY) :value IND
+                SELLFUEL24: (SOLD IRN HYDROCARBONFUEL FRA)
+                  SERIES
+                    TRANSFERMONEY25: (TRANSFERFUNDS FRA IRN MONEY)
+                      SERIES
+                        WITHDRAWMONEY26: (WITHDRAW FRA MONEY)
+                        DEPOSITMONEY27: (DEPOSITED IRN MONEY) :value FRA
+                SELLFUEL28: (SOLD IRN HYDROCARBONFUEL CHI)
+                  SERIES
+                    TRANSFERMONEY29: (TRANSFERFUNDS CHI IRN MONEY)
+                      SERIES
+                        WITHDRAWMONEY30: (WITHDRAW CHI MONEY)
+                        DEPOSITMONEY31: (DEPOSITED IRN MONEY) :value CHI
+          parallel
+            CONDUCTRESEARCH33: (CONDUCTRESEARCH IRN NUCLEARWEAPON)
+              SERIES
+                DEVELOPEXPERTS35: (HASSOMEKNOWLEDGEOF IRN NUCLEARWEAPON)
+                PERFORMR&D36: (PERFORMR&D IRN NUCLEARWEAPON)
+            DEVELOPLOGISTICALRESOURCES37: (HASLOGISTICALRESOURCES IRN NUCLEARWEAPON)
+                PURCHASECONTROLLEDSUBSTANCE39: (POSSESSES IRN NUCRELATEDEQUIPMENT) :value AGENT38
+      DEVELOPDELIVERYSYSTEM42: (PRODUCE IRN ICBM)
+        SERIES
+          parallel
+            BUILD&TEST43: (BUILDANDTEST IRN WEAPONGUIDANCE)
+            BUILD&TEST44: (BUILDANDTEST IRN ROCKET)
+            BUILD&TEST45: (BUILDANDTEST IRN REENTRYCAPABILITY)
+          ASSEMBLEMISSILE47: (BUILDANDTEST IRN ICBM)
+    DEVELOPNUCLEARWEAPON49: (ACQUIRE IRN NUCLEARWEAPON) :value IMPLOSIONWEAPON
+      SERIES
+        IMPORTHEU50: (OBTAINFISSILEMATERIAL IRN) :value HIGHLYENRICHEDURANIUM
+          SERIES
+            TRANSFERMONEY54: (TRANSFERFUNDS IRN PAK MONEY)
+              SERIES
+                WITHDRAWMONEY55: (WITHDRAW IRN MONEY)
+                DEPOSITMONEY56: (DEPOSITED PAK MONEY) :value IRN
+        BUILDIMPLOSIONWEAPON57: (PRODUCE IRN NUCLEARWEAPON) :input HIGHLYENRICHEDURANIUM :output IMPLOSIONWEAPON
+    TESTNUCLEARWEAPON58: (TEST IRN IMPLOSIONWEAPON) :value NATANZ
+    MINIATURIZENUCLEARWEAPON59: (MINIATURIZE IRN IMPLOSIONWEAPON)
+
+
+ probability-of-success = 0.000
+ time:hasDuration = 178.00 WEEKs [deadline = 416.00]
+
+
+  2 assumptions, 2 used
+  1 axioms applied
+  4 constraints tested
+
+
+ 0.1 seconds
+   54 nodes examined, 782.6 nodes/sec
+   49 chosen, 710.1 chosen/sec
+NUCLEARWEAPONPROGRAM4
+NIL
+AP(8): 

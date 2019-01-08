@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# cd /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner && /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/acl81/alisp -e "(progn cl-user: (load-system 'ap :compile t) cl-user: (in-package :ap) (defun split-re (arg1 arg2) \"\" (split-regexp arg1 arg2)) (defun replace-re (arg1 arg2 arg3) \"\" (replace-regexp arg1 arg2 arg3)) ap: (load \"ap:domains;CBRN;RTS-AI;Iran.pddl\") (setf *problem* (first (problems *domain*))) (run-ap *problem*))"
+
+cd /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner && /var/lib/myfrdcsa/codebases/minor/3t-frdcsa/acl81/alisp -qq -e "(progn cl-user: (load \"/home/andrewdo/.clinit.cl\") cl-user: (load \"/var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/ap.system\") cl-user: (load \"/var/lib/myfrdcsa/codebases/minor/3t-frdcsa/planner/ap.asd\") cl-user: (load-system 'ap :compile t) cl-user: (in-package :ap) (defun split-re (arg1 arg2) \"\" (split-regexp arg1 arg2)) (defun replace-re (arg1 arg2 arg3) \"\" (replace-regexp arg1 arg2 arg3)) ap: (load \"ap:domains;CBRN;RTS-AI;Iran.pddl\") (setf *problem* (first (problems *domain*))) (run-ap *problem*))"
